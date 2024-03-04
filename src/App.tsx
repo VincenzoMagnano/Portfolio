@@ -9,7 +9,7 @@ import TechStack from './Components/TechStack/TechStack';
 const App = () => {
   return (
     <div className="App">
-     <Navbar/>
+    
      <Front/>
      
       

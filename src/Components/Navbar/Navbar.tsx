@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 const Navbar = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg bg-body-transparent">
                 <div className="container-fluid">
                     <img className="logo-dim" src={VMLogo} alt="logo" />
                     <button 
