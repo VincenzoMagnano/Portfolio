@@ -8,7 +8,8 @@
 }
 
 .text-position {
-    top: 35%;
+    position: relative;
+    top: 200px;
 }
 
 .text-design2 {
@@ -21,8 +22,9 @@
     background: rgb(230, 232, 232);
     background: linear-gradient(90deg, rgba(179, 179, 179, 0.344) 0%, rgba(209, 209, 208, 0.479) 40%);
     backdrop-filter: blur(0.5rem);
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 1rem;
+    width: 300px;
 
 }
 
@@ -36,7 +38,7 @@
 
 .text-font {
     font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -50,4 +52,12 @@
     text-decoration: 0.5px solid rgba(0, 0, 0, 0.342) underline;
     text-underline-offset: 0.2rem;
     font-weight: 500;
+}
+
+.div-position{
+    top: 40%;
+}
+
+.responsive{
+    object-fit: cover;
 }

@@ -3,32 +3,16 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Front from './Components/Front/Front';
+import TechStack from './Components/TechStack/TechStack';
 
 
-const App= () => {
-
-  const [isSticky, setIsSticky] = useState(false);
-
-  const handleScroll = () => {
-    if (window.scrollY > 10) {
-      setIsSticky(true);
-    } else {
-      setIsSticky(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
+const App = () => {
   return (
     <div className="App">
-      <Navbar onChange={handleScroll} />
-      <Front />
+     <Navbar/>
+     <Front/>
      
+      
     </div>
   );
 };
